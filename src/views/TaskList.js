@@ -14,7 +14,7 @@ import moment from "moment";
 import "moment/locale/pt-br";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-import commomStyles from "../commomStyles";
+import commonStyles from "../commonStyles";
 import todayImage from "../../assets/imgs/today.jpg";
 import Task from "../components/Task";
 import AddTask from "./AddTask";
@@ -104,7 +104,7 @@ export default class TaskList extends Component {
 							<Icon
 								name={this.state.showDoneTasks ? "eye" : "eye-slash"}
 								size={30}
-								color={commomStyles.colors.secondary}
+								color={commonStyles.colors.secondary}
 							/>
 						</TouchableOpacity>
 					</View>
@@ -132,7 +132,7 @@ export default class TaskList extends Component {
 					}}
 					style={styles.addButton}
 				>
-					<Icon name="plus" size={30} color={commomStyles.colors.secondary} />
+					<Icon name="plus" size={30} color={commonStyles.colors.secondary} />
 				</TouchableOpacity>
 			</View>
 		);
@@ -160,19 +160,19 @@ const styles = StyleSheet.create({
 		justifyContent: "flex-end",
 	},
 	title: {
-		color: commomStyles.colors.secondary,
+		color: commonStyles.colors.secondary,
 		fontSize: 50,
 		marginLeft: 20,
 		marginBottom: 20,
 	},
 	subtitle: {
-		color: commomStyles.colors.secondary,
+		color: commonStyles.colors.secondary,
 		fontSize: 20,
 		marginLeft: 20,
 		marginBottom: 20,
 	},
 	addButton: {
-		backgroundColor: commomStyles.colors.today,
+		backgroundColor: commonStyles.colors.today,
 		width: 80,
 		height: 80,
 		justifyContent: "center",

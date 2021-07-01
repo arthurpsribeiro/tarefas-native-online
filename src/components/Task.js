@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableWithoutFeedback } from "react-native";
 import moment from "moment";
 import "moment/locale/pt-br";
 import Icon from "react-native-vector-icons/FontAwesome";
-import commomStyles from "../commomStyles";
+import commomStyles from "../commonStyles";
 import Swipeable from "react-native-gesture-handler/Swipeable";
 import { TouchableOpacity } from "react-native-gesture-handler";
 

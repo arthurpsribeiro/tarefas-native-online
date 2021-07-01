@@ -12,7 +12,7 @@ import {
 import DateTimePicker from "@react-native-community/datetimepicker";
 import moment from "moment";
 
-import commomStyles from "../commomStyles";
+import commomStyles from "../commonStyles";
 
 const initialState = {
 	desc: "",
